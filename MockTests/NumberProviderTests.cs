@@ -32,7 +32,7 @@ namespace MockTests
             testMock.ProvideNumber();
             //testMock.ProvideNumber(); //Fails if this line is invoked
 
-            //Assert
+            //Assert 
 
             mockedProvider.Verify(NP => NP.ProvideNumber(), Times.Exactly(5));
         }
